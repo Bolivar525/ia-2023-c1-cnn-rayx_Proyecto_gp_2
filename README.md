@@ -1,6 +1,7 @@
 # ia-2023-c1-cnn-rayx_Proyecto_gp_2
 # Detección de neumonía a través de imágenes de rayos X utilizando redes neuronales convolucionales (CNN)
-
+## Bolivar Rodriguez1 , Ariel Bonilla1, Aldo Nicola1, Sebastián Riofrio1, Angi Torres 1
+(1) Carrera de Ingeniería en Sistema de Información, Facultad de Industrial, Universidad de Guayaquil.
 # Resumen
 
 En este estudio se aborda la detección precisa y temprana de la neumonía a través de imágenes de rayos X pulmonares utilizando redes neuronales convolucionales (CNN). La neumonía, una enfermedad respiratoria grave de alcance global, requiere diagnósticos precisos para un tratamiento efectivo y la mitigación de su impacto en la salud pública. Mediante el empleo de exámenes de rayos X pulmonares, se busca identificar patrones característicos asociados a la neumonía, lo que brinda a los profesionales médicos la capacidad de ofrecer diagnósticos confiables. El enfoque en la inteligencia artificial (IA) y, en particular, en las redes neuronales convolucionales, emerge como una solución prometedora para agilizar y mejorar el diagnóstico de neumonía en imágenes radiológicas. La arquitectura CNN, entrenada con un conjunto de datos exhaustivamente etiquetado, demostró una capacidad sólida para aprender patrones sutiles en imágenes de rayos X pulmonares. La fase de entrenamiento y optimización incluyó pruebas rigurosas de configuración y ajuste de hiperparámetro, asegurando que la CNN alcanzara su máxima eficacia en la detección de neumonía.
