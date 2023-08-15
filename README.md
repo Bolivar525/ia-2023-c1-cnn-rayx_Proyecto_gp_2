@@ -21,19 +21,19 @@ Además, en la Figura 1 se mostrará una comparación visual entre pulmones con 
 
 # Metodologia
 
-Recopilación del conjunto de datos:
+### Recopilación del conjunto de datos:
 
 Se recopiló un amplio conjunto de datos de imágenes de rayos X pulmonares de pacientes con neumonía bacteriana, neumonía viral y pulmones sanos, previamente etiquetadas con sus respectivas clases.
 
-Preprocesamiento de las imágenes:
+### Preprocesamiento de las imágenes:
 
 Las imágenes fueron normalizadas para escalar los valores de píxeles a un rango adecuado, redimensionadas a un tamaño consistente de 150x150 píxeles y se aplicaron técnicas de aumento de datos para diversificar el conjunto de entrenamiento.
 
-Evaluación del rendimiento del modelo:
+### Evaluación del rendimiento del modelo:
 
 Después de completar el entrenamiento de la CNN para detectar neumonía en imágenes de rayos X, se evaluó su rendimiento mediante una matriz de confusión. La precisión del modelo se destacó con un impresionante 93.22%, lo que significa que el 93.22% de los casos en el conjunto de prueba fueron clasificados correctamente. Además de la precisión, se calculó el F1 score para proporcionar una evaluación más completa del modelo, considerando tanto los verdaderos positivos como los falsos positivos y falsos negativos. Estas métricas combinadas brindan una comprensión integral del desempeño de la CNN en la detección automatizada de neumonía a partir de imágenes de rayos X pulmonares, respaldando su potencial utilidad como herramienta de apoyo en el diagnóstico temprano y preciso de la neumonía en situaciones de alta demanda médica o recursos limitados. El proceso de optimización incluyó diversas pruebas y ajustes en la arquitectura de la CNN y en los hiperparámetro, asegurando que el modelo alcanzara su máximo rendimiento en esta tarea crucial de salud.
 
-Análisis de interpretabilidad:
+### Análisis de interpretabilidad:
 
 Se realizó un análisis de interpretabilidad para comprender las decisiones de diagnóstico del modelo. Se utilizaron técnicas como la visualización de mapas de activación y el análisis de filtros para obtener una mayor comprensión de la CNN.
 En el desarrollo del sistema, se utilizó Python con Pandas para la manipulación y organización de datos, y PyTorch para implementar la arquitectura CNN, entrenar y evaluar el modelo. El sistema proporciona una herramienta útil para los profesionales de la salud en la detección temprana y precisa de neumonía a partir de imágenes de rayos X pulmonares.
