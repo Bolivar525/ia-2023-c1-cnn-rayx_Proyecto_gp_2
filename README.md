@@ -25,8 +25,12 @@ Además, en la Figura 1 se mostrará una comparación visual entre pulmones con 
 ![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/8e729fb8-a5fd-4153-a0bc-790221439fea)
 ](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/d7233318-b8aa-4c10-8205-91dac109769b)
 
+Figura 1: Comparación de imagenes de rayos-X de personas con 
+Neumonía y Normales
+
+
 ![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/90e4106b-40b6-4ca3-aefa-1a9ade8dde46)
-Distribución de la frecuencia de los síntomas y signos más frecuentes asociados al diagnóstico de neumonía adquirida en la comunidad. Imagen obtenida de:  https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322020000100005![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/8de7d686-510f-463d-8ac3-a76748f414b0)
+Figura 2: Distribución de la frecuencia de los síntomas y signos más frecuentes asociados al diagnóstico de neumonía adquirida en la comunidad. Imagen obtenida de:  https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322020000100005![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/8de7d686-510f-463d-8ac3-a76748f414b0)
 
 
 # Metodologia
@@ -49,7 +53,9 @@ Se realizó un análisis de interpretabilidad para comprender las decisiones de 
 En el desarrollo del sistema, se utilizó Python con Pandas para la manipulación y organización de datos, y PyTorch para implementar la arquitectura CNN, entrenar y evaluar el modelo. El sistema proporciona una herramienta útil para los profesionales de la salud en la detección temprana y precisa de neumonía a partir de imágenes de rayos X pulmonares.
 
 ![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/b52e172a-9878-406f-beb9-ceebd7eef4b2)
-
+Figura 3:Arquitectura de 3 capas para la detección de neumonía a través 
+de imágenes de rayos X utilizando redes neuronales convolucionales 
+(CNN)
 
 # Resultado
 
