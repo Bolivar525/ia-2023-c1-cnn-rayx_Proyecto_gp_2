@@ -17,7 +17,16 @@ Para abordar este desafío, la inteligencia artificial (IA) y, en particular, la
 El objetivo principal de este trabajo es desarrollar un sistema de inteligencia artificial basado en redes neuronales convolucionales para la identificación automatizada y precisa de casos de neumonía a partir de imágenes de rayos X pulmonares. Para ello, se utilizará un conjunto de datos amplio y bien anotado que contenga imágenes de pacientes con neumonía confirmada, así como de pulmones sanos, preprocesando las imágenes para asegurar la calidad y consistencia de los datos.
 
 La arquitectura CNN propuesta se compone de cuatro capas y será entrenada y optimizada para la detección de neumonía en imágenes de rayos X. Se considerarán diferentes configuraciones y hiperparámetro para obtener el mejor rendimiento posible. Se espera que el resultado de este trabajo proporcione una herramienta de apoyo a los profesionales de la salud, permitiendo diagnósticos rápidos y precisos de neumonía, especialmente en situaciones de alta demanda o en regiones con recursos limitados, mejorando así la atención médica y contribuyendo a la detección temprana de esta enfermedad respiratoria.
+
 Además, en la Figura 1 se mostrará una comparación visual entre pulmones con neumonía y pulmones normales para ilustrar claramente las diferencias características en las imágenes de rayos X.
+
+![Figura 1. Comparación de imagenes de rayos-X de personas con Neumonía y Normales
+![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/8e729fb8-a5fd-4153-a0bc-790221439fea)
+](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/d7233318-b8aa-4c10-8205-91dac109769b)
+
+![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/90e4106b-40b6-4ca3-aefa-1a9ade8dde46)
+Distribución de la frecuencia de los síntomas y signos más frecuentes asociados al diagnóstico de neumonía adquirida en la comunidad. Imagen obtenida de:  https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322020000100005![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/8de7d686-510f-463d-8ac3-a76748f414b0)
+
 
 # Metodologia
 
@@ -37,6 +46,9 @@ Después de completar el entrenamiento de la CNN para detectar neumonía en imá
 
 Se realizó un análisis de interpretabilidad para comprender las decisiones de diagnóstico del modelo. Se utilizaron técnicas como la visualización de mapas de activación y el análisis de filtros para obtener una mayor comprensión de la CNN.
 En el desarrollo del sistema, se utilizó Python con Pandas para la manipulación y organización de datos, y PyTorch para implementar la arquitectura CNN, entrenar y evaluar el modelo. El sistema proporciona una herramienta útil para los profesionales de la salud en la detección temprana y precisa de neumonía a partir de imágenes de rayos X pulmonares.
+
+![image](https://github.com/Bolivar525/ia-2023-c1-cnn-rayx_Proyecto_gp_2/assets/142124085/b52e172a-9878-406f-beb9-ceebd7eef4b2)
+
 
 # Resultado
 
